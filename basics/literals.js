@@ -1,10 +1,10 @@
 // Number
 var somenumber = 7;
-var somenumber = 12;
+var anothernumber = 12;
 
 // String
 var somestring = "I am a string";
-var somestring = 'I am a string, too';
+var anotherstring = 'I am a string, too';
 
 // Boolean
 var aboolean = true;
