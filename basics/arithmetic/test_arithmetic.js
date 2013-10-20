@@ -18,3 +18,13 @@ document.write("<br>");
     // => 1
   document.write("<p>Math.round(.6) = " + Math.round(.6) + "</p>")
     // => 1
+
+  document.write("<br>");
+
+  document.write("<h1>Rounding up</h1>");
+  document.write("<p>Math.ceil(.9) = " + Math.ceil(.9) + "</p>")
+    // => 1
+  document.write("<p>Math.ceil(.1) = " + Math.ceil(.1) + "</p>")
+    // => 1
+  document.write("<p>Math.ceil(.01) = " + Math.ceil(.01) + "</p>")
+    // => 1
