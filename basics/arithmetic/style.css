@@ -1,0 +1,9 @@
+/* "header" <p> tags */
+p.h {
+  margin-bottom: 0px;
+}
+
+/* info-container <p> tags */
+p.i {
+  margin: 5px 0px 5px 10px;
+}
