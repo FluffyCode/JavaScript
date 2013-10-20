@@ -28,3 +28,11 @@ document.write("<br>");
     // => 1
   document.write("<p>Math.ceil(.01) = " + Math.ceil(.01) + "</p>")
     // => 1
+
+  document.write("<br>");
+
+  document.write("<h1>Rounding down</h1>");
+  document.write("<p>Math.floor(1.01) = " + Math.floor(1.01) + "</p>")
+    // => 1
+  document.write("<p>Math.floor(1.99) = " + Math.floor(1.99) + "</p>")
+    // => 1
