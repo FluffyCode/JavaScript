@@ -54,8 +54,6 @@ document.write("<br>");
     // => 5
   document.write("<p>Math.max(1.01, 0, 1) = " + Math.max(1.01, 0, 1) + "</p>")
     // => 1.01
-  document.write("<p>Math.max('cat', 'waffle', 'taco') = " + Math.max('cat', 'waffle', 'taco') + "</p>")
-    // => NaN
 
   document.write("<br>");
 
@@ -64,6 +62,14 @@ document.write("<br>");
     // => 13
   document.write("<p>Math.min(1, 2, 0.5) = " + Math.min(1, 2, 0.5) + "</p>")
     // => 0.5
+
+  document.write("<br>");
+
+  document.write("<p>Math.max and Math.min do not like non-numbers:</p>")
+  document.write("<p>Math.max('cat', 'waffle', 'taco') = " + Math.max('cat', 'waffle', 'taco') + "</p>")
+    // => NaN
+  document.write("<p>Math.min('beaver', 'tostada', 'lolrus') = " + Math.min('beaver', 'tostada', 'lolrus') + "</p>")
+    // => NaN
 
 document.write("<br>");
 
