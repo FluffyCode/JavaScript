@@ -45,3 +45,14 @@ document.write("<br>");
     // => 256
   document.write("<p>Math.abs(-1024) = " + Math.abs(-1024) + "</p>")
     // => 1024
+
+document.write("<br>");
+
+// Largest/Smallest number in a set of arguments
+  document.write("<h1>Largest argument</h1>");
+  document.write("<p>Math.max(2, 5, 3) = " + Math.max(2, 5, 3) + "</p>")
+    // => 5
+  document.write("<p>Math.max(1.01, 0, 1) = " + Math.max(1.01, 0, 1) + "</p>")
+    // => 1.01
+  document.write("<p>Math.max('cat', 'waffle', 'taco') = " + Math.max('cat', 'waffle', 'taco') + "</p>")
+    // => NaN
