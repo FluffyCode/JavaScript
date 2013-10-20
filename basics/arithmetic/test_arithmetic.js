@@ -56,3 +56,11 @@ document.write("<br>");
     // => 1.01
   document.write("<p>Math.max('cat', 'waffle', 'taco') = " + Math.max('cat', 'waffle', 'taco') + "</p>")
     // => NaN
+
+  document.write("<br>");
+
+  document.write("<h1>Smallest argument</h1>");
+  document.write("<p>Math.min(72, 55, 13) = " + Math.min(72, 55, 13) + "</p>")
+    // => 13
+  document.write("<p>Math.min(1, 2, 0.5) = " + Math.min(1, 2, 0.5) + "</p>")
+    // => 0.5
