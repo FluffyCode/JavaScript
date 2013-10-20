@@ -71,3 +71,16 @@ document.write("<br>");
   document.write("<h1>Random numbers</h1>");
   document.write("<p>Math.random() = " + Math.random() + "</p>")
     // 0 <= x < 1
+
+document.write("<br>");
+
+// Square roots
+  document.write("<h1>Square roots</h1>");
+  document.write("<p>Math.sqrt(4) = " + Math.sqrt(4) + "</p>")
+    // => 2
+  document.write("<p>Math.sqrt(9) = " + Math.sqrt(9) + "</p>")
+    // => 3
+  document.write("<p>Math.sqrt(16) = " + Math.sqrt(16) + "</p>")
+    // => 4
+  document.write("<p>Math.sqrt(25) = " + Math.sqrt(25) + "</p>")
+    // => 5
