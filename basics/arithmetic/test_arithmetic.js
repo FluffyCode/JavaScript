@@ -36,3 +36,12 @@ document.write("<br>");
     // => 1
   document.write("<p>Math.floor(1.99) = " + Math.floor(1.99) + "</p>")
     // => 1
+
+document.write("<br>");
+
+// Absolute value
+  document.write("<h1>Absolute value</h1>");
+  document.write("<p>Math.abs(256) = " + Math.abs(256) + "</p>")
+    // => 256
+  document.write("<p>Math.abs(-1024) = " + Math.abs(-1024) + "</p>")
+    // => 1024
