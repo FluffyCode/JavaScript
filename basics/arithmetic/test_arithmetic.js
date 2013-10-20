@@ -64,3 +64,10 @@ document.write("<br>");
     // => 13
   document.write("<p>Math.min(1, 2, 0.5) = " + Math.min(1, 2, 0.5) + "</p>")
     // => 0.5
+
+document.write("<br>");
+
+// Random numbers - produces a random number, 'x'
+  document.write("<h1>Random numbers</h1>");
+  document.write("<p>Math.random() = " + Math.random() + "</p>")
+    // 0 <= x < 1
