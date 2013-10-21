@@ -73,14 +73,14 @@ document.write("<br>");
 
 document.write("<br>");
 
-// Random numbers - produces a random number, 'x'
+// Random number - produces a random number, 'x'
   document.write("<h1>Random numbers</h1>");
   document.write("<p>Math.random() = " + Math.random() + "</p>")
     // 0 <= x < 1
 
 document.write("<br>");
 
-// Square roots
+// Square root
   document.write("<h1>Square roots</h1>");
   document.write("<p>Math.sqrt(4) = " + Math.sqrt(4) + "</p>")
     // => 2
@@ -90,3 +90,11 @@ document.write("<br>");
     // => 4
   document.write("<p>Math.sqrt(25) = " + Math.sqrt(25) + "</p>")
     // => 5
+
+document.write("<br>");
+
+// Cosine
+  document.write("<h1>Cosine</h1>");
+  document.write("<p>Math.cos(3) = " + Math.cos(3) + "</p>")
+  document.write("<p>Math.cos(10) = " + Math.cos(10) + "</p>")
+  document.write("<p>Math.cos(782) = " + Math.cos(782) + "</p>")
