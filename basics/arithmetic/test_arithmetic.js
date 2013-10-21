@@ -115,3 +115,10 @@ document.write("<br>");
   document.write("<p>Math.tan(12) = " + Math.tan(12) + "</p>")
   document.write("<p>Math.tan(917) = " + Math.tan(917) + "</p>")
 
+document.write("<br>");
+
+// Arctangent
+  document.write("<h1>Arctangent</h1>");
+  document.write("<p>Math.atan(2) = " + Math.atan(2) + "</p>")
+  document.write("<p>Math.atan(34) = " + Math.atan(34) + "</p>")
+  document.write("<p>Math.atan(348) = " + Math.atan(348) + "</p>")
