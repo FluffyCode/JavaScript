@@ -98,3 +98,11 @@ document.write("<br>");
   document.write("<p>Math.cos(3) = " + Math.cos(3) + "</p>")
   document.write("<p>Math.cos(10) = " + Math.cos(10) + "</p>")
   document.write("<p>Math.cos(782) = " + Math.cos(782) + "</p>")
+
+document.write("<br>");
+
+// Sine
+  document.write("<h1>Sine</h1>");
+  document.write("<p>Math.sin(3) = " + Math.sin(3) + "</p>")
+  document.write("<p>Math.sin(82) = " + Math.sin(82) + "</p>")
+  document.write("<p>Math.sin(447) = " + Math.sin(447) + "</p>")
