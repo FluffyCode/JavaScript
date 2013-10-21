@@ -106,3 +106,12 @@ document.write("<br>");
   document.write("<p>Math.sin(3) = " + Math.sin(3) + "</p>")
   document.write("<p>Math.sin(82) = " + Math.sin(82) + "</p>")
   document.write("<p>Math.sin(447) = " + Math.sin(447) + "</p>")
+
+document.write("<br>");
+
+// Tangent
+  document.write("<h1>Tangent</h1>");
+  document.write("<p>Math.tan(3) = " + Math.tan(3) + "</p>")
+  document.write("<p>Math.tan(12) = " + Math.tan(12) + "</p>")
+  document.write("<p>Math.tan(917) = " + Math.tan(917) + "</p>")
+
