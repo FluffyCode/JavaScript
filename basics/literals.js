@@ -5,11 +5,11 @@ var num2 = 4.7;
 // Unlike other languages (such as Ruby), JavaScript does not differentiate between
 // integers and floating-point numbers. JavaScript treats all numbers as floating-point.
 
-	// typeof num1
-		// => number
+  // typeof num1
+    // => number
 
-	// typeof num2
-		// => number
+  // typeof num2
+    // => number
 
 
 
