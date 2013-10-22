@@ -119,6 +119,15 @@ document.write("<br>");
 
 document.write("<br>");
 
+// Arcsine
+  document.write("<h1>Arcsine</h1>");
+  document.write("<p>Math.asin(0.9) = " + Math.asin(0.9) + "</p>")
+  document.write("<p>Math.asin(1) = " + Math.asin(1) + "</p>")
+  document.write("<p>Math.asin(1.01) = " + Math.asin(1.01) + "</p>")
+    // Anything greater than 1 is NaN
+
+document.write("<br>");
+
 // Tangent
   document.write("<h1>Tangent</h1>");
   document.write("<p>Math.tan(3) = " + Math.tan(3) + "</p>")
