@@ -101,6 +101,16 @@ document.write("<br>");
 
 document.write("<br>");
 
+// Arccosine
+  document.write("<h1>Arccosine</h1>");
+  document.write("<p>Math.acos(0.9) = " + Math.acos(0.9) + "</p>")
+  document.write("<p>Math.acos(1) = " + Math.acos(1) + "</p>")
+    // => 0
+  document.write("<p>Math.acos(1.01) = " + Math.acos(1.01) + "</p>")
+    // Anything greater than 1 is NaN
+
+document.write("<br>");
+
 // Sine
   document.write("<h1>Sine</h1>");
   document.write("<p>Math.sin(3) = " + Math.sin(3) + "</p>")
