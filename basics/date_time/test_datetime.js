@@ -28,7 +28,7 @@ document.write("<p>some_date = " + some_date + "</p>")
 some_date = new Date(2013, 9, 23, 24, 0, 0)
 document.write("<p>some_date = " + some_date + "</p>")
   // => Thu Oct 24 2013 00:00:00 GMT-0700 (PDT)
-some_date = new Date(2013, 9, 23, 48, 0, 0)
+some_date = new Date(2013, 9, 23, 62, 0, 0)
 document.write("<p>some_date = " + some_date + "</p>")
   // => Fri Oct 25 2013 00:00:00 GMT-0700 (PDT)
 
@@ -47,6 +47,8 @@ document.write("<p>some_date.getDay() = " + some_date.getDay() + "</p>")
   // => 5
   // Day of the week, 0-based
   // Sun = 0, Mon = 1, Tue = 2, Wed = 3, Thu = 4, Fri = 5, Sat = 6
+document.write("<p>some_date.getHours() = " + some_date.getHours() + "</p>")
+  // => 14
 
 
 
