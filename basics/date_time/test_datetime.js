@@ -49,7 +49,7 @@ document.write("<p>some_date.getDay() = " + some_date.getDay() + "</p>")
   // Sun = 0, Mon = 1, Tue = 2, Wed = 3, Thu = 4, Fri = 5, Sat = 6
 document.write("<p>some_date.getHours() = " + some_date.getHours() + "</p>")
   // => 14
-
-
-
-document.write("<p></p>")
+document.write("<p>some_date.toLocaleDateString() = " + some_date.toLocaleDateString() + "</p>")
+  // => 10/25/2013
+document.write("<p>some_date.toLocaleTimeString() = " + some_date.toLocaleTimeString() + "</p>")
+  // => 14:00:00
