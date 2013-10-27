@@ -18,6 +18,9 @@ document.write("<p>Single quotes within a double-quote string: " + some_string_l
 var some_string_literal = 'A "glorious feeling," say reviews'
 document.write("<p>Double quotes within a single-quote string: " + some_string_literal + "</p>")
 
+var some_string_literal = 'I\'m singin\' in the rain'
+document.write("<p>Escaping non-delimited single-quotes within a single-quote-delimited string: " + some_string_literal + "</p>")
+
 
 
 document.write("<p></p>")
