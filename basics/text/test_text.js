@@ -15,6 +15,9 @@ document.write("<p>A number between quotes: " + some_string_literal + "</p>")
 var some_string_literal = "Singin' in the rain"
 document.write("<p>Single quotes within a double-quote string: " + some_string_literal + "</p>")
 
+var some_string_literal = 'A "glorious feeling," say reviews'
+document.write("<p>Double quotes within a single-quote string: " + some_string_literal + "</p>")
+
 
 
 document.write("<p></p>")
