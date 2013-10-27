@@ -31,6 +31,12 @@ var string2 = "world"
 
 document.write("<p>Concatenating strings: " + string1 + ", " + string2 + "</p>")
 
+document.write("<br>")
+
+var really_long_string = "supercalafragalisticexpialadoshus"
+document.write("<p>" + really_long_string + "</p>")
+document.write("<p>Getting the length of a string: " + really_long_string.length + "</p>")
+
 
 
 document.write("<p></p>")
