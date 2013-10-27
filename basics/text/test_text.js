@@ -36,8 +36,10 @@ document.write("<br>")
 document.write("<h1>String length</h1>")
   var really_long_string = "supercalafragalisticexpialadoshus"
 
-  document.write("<p>" + really_long_string + "</p>")
-  document.write("<p>Getting the length of a string: " + really_long_string.length + "</p>")
+  document.write("<p>really_long_string: " + really_long_string + "</p>")
+  document.write("<p>Getting the length of really_long_string: " + really_long_string.length + "</p>")
+
+document.write("<br>")
 
 
 
