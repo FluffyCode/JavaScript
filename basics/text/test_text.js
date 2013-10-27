@@ -41,6 +41,13 @@ document.write("<h1>String length</h1>")
 
 document.write("<br>")
 
+document.write("<h1>String indices</h1>")
+  var some_string = "It's peanut butter jelly time"
+
+  document.write("<p>some_string: " + some_string + "</p>")
+  document.write("<p>some_string.charAt(0): " + some_string.charAt(0) + "</p>")
+  document.write("<p>some_string.charAt(some_string.length - 1): " + some_string.charAt(some_string.length - 1) + "</p>")
+
 
 
 document.write("<p></p>")
