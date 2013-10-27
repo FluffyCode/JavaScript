@@ -24,6 +24,13 @@ document.write("<p>Escaping non-delimited single-quotes within a single-quote-de
 var some_string_literal = "He said, \"I get it, you're singing in the rain.\""
 document.write("<p>Escaping non-delimited double-quotes within a double-quote-delimited string: " + some_string_literal + "</p>")
 
+document.write("<br>")
+
+var string1 = "Hello"
+var string2 = "world"
+
+document.write("<p>Concatenating strings: " + string1 + ", " + string2 + "</p>")
+
 
 
 document.write("<p></p>")
