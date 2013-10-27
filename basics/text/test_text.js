@@ -48,6 +48,11 @@ document.write("<h1>String indices</h1>")
   document.write("<p>some_string.charAt(0): " + some_string.charAt(0) + "</p>")
   document.write("<p>some_string.charAt(some_string.length - 1): " + some_string.charAt(some_string.length - 1) + "</p>")
 
+  document.write("<br>")
+
+  document.write("<p>Using substring:</p>")
+  document.write("<p>some_string.substring(5, 24): " + some_string.substring(5, 24) + "</p>")
+
 
 
 document.write("<p></p>")
