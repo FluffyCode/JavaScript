@@ -57,5 +57,6 @@ document.write("<h1>String indices</h1>")
 
   document.write("<p>Using slice:</p>")
   document.write("<p>some_string.slice(5, 24): " + some_string.slice(5, 24) + "</p>")
+  document.write("<p>some_string.slice(-4): " + some_string.slice(-4) + "</p>")
 
 document.write("<p></p>")
