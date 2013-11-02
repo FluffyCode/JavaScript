@@ -73,6 +73,8 @@ document.write("<h1>String indices</h1>")
 
   document.write("<p>Getting the index of the first instance of a character in a string, after the specified index:</p>")
   document.write("<p>some_string.indexOf('e', 7): " + some_string.indexOf('e', 7) + "</p>")
+  document.write("<p>Note that that index will returned, if that index includes that character:</p>")
+  document.write("<p>some_string.indexOf('e', 6): " + some_string.indexOf('e', 6) + "</p>")
 
 
 
