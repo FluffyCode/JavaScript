@@ -59,4 +59,11 @@ document.write("<h1>String indices</h1>")
   document.write("<p>some_string.slice(5, 24): " + some_string.slice(5, 24) + "</p>")
   document.write("<p>some_string.slice(-4): " + some_string.slice(-4) + "</p>")
 
+  document.write("<br>")
+
+  document.write("<p>Getting the index of the first instance of a character in a string:</p>")
+  document.write("<p>some_string.indexOf('e'): " + some_string.indexOf('e') + "</p>")
+
+
+
 document.write("<p></p>")
