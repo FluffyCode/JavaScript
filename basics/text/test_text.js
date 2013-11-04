@@ -61,17 +61,17 @@ document.write("<h1>String indices</h1>")
 
   document.write("<br>")
 
-  document.write("<p>Getting the index of the first instance of a character in a string:</p>")
+  document.write("<p>Get the index of the first instance of a character in a string:</p>")
   document.write("<p>some_string.indexOf('e'): " + some_string.indexOf('e') + "</p>")
 
   document.write("<br>")
 
-  document.write("<p>Getting the index of the last instance of a character in a string:</p>")
+  document.write("<p>Get the index of the last instance of a character in a string:</p>")
   document.write("<p>some_string.lastIndexOf('e'): " + some_string.lastIndexOf('e') + "</p>")
 
   document.write("<br>")
 
-  document.write("<p>Getting the index of the first instance of a character in a string, after the specified index:</p>")
+  document.write("<p>Get the index of the first instance of a character in a string, at/after the specified index:</p>")
   document.write("<p>some_string.indexOf('e', 7): " + some_string.indexOf('e', 7) + "</p>")
   document.write("<p>Note that that index will returned, if that index includes that character:</p>")
   document.write("<p>some_string.indexOf('e', 6): " + some_string.indexOf('e', 6) + "</p>")
