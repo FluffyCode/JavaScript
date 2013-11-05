@@ -83,11 +83,7 @@ document.write("<h1>Replacing parts of a string</h1>")
 
   document.write("<p>some_string: " + some_string + "</p>")
   document.write("<p>some_string.replace('e', 'E'): " + some_string.replace('e', 'E') + "</p>")
-    // => hErp de derp
-    // only replaces the first instance
-
   document.write("<p>some_string.replace(/e/g, 'E'): " + some_string.replace(/e/g, 'E') + "</p>")
-    // => hErp dE dErp
 
 
 
