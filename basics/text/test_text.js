@@ -76,6 +76,16 @@ document.write("<h1>String indices</h1>")
   document.write("<p>Note that that index will returned, if that index includes that character:</p>")
   document.write("<p>some_string.indexOf('e', 6): " + some_string.indexOf('e', 6) + "</p>")
 
+document.write("<br>")
+
+document.write("<h1>Replacing parts of a string</h1>")
+  some_string = "herp de derp"
+
+  document.write("<p>some_string: " + some_string + "</p>")
+  document.write("<p>some_string.replace('e', 'E'): " + some_string.replace('e', 'E') + "</p>")
+    // => hErp de derp
+    // only replaces the first instance
+
 
 
 document.write("<p></p>")
